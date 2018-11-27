@@ -1,0 +1,20 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "iCertis-Package",
+            "versionName": "Version 1.0",
+            "versionNumber": "1.1.2.NEXT"
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "44.0",
+    "packageAliases": {
+        "iCertis-Package": "0Ho6A000000fxWISAY",
+        "iCertis-Package@1.0.0-1": "04t6A000003Wz3YQAS",
+        "iCertis-Package@1.1.0-1": "04t6A000003Wz3xQAC",
+        "iCertis-Package@1.1.1-1": "04t6A000003Wz4RQAS"
+    }
+}
