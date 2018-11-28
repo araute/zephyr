@@ -2,7 +2,7 @@
     <apex:slds/>
     <div class="slds-section">
         <h3 class="slds-section__title">
-            <button aria-controls="expandableSectionBasicInformation" aria-expanded="false" class="slds-button slds-section__title-action">
+            <button aria-controls="expandableSectionBasicInformation" aria-expanded="true" class="slds-button slds-section__title-action">
                 <svg class="slds-section__title-action-icon slds-button__icon slds-button__icon--left" aria-hidden="true">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS,'/assets/icons/utility-sprite/svg/symbols.svg#switch')}"
                     />
@@ -55,69 +55,70 @@
                     <strong>Org*</strong>
                 </dt>
                 <dd class="slds-m-vertical_small slds-p-left_x-large">
-                <dt class="slds-m-vertical_small">
-                    <div class="slds-form-element">
-                        <label class="slds-form-element__label" for="select-01">Select Org</label>
-                        <div class="slds-form-element__control">
-                          <div class="slds-select_container">
-                            <select class="slds-select" id="select-01">
-                              <option>GBD</option>
-                              <option>GCAS</option>
-                              <option>GMS</option>
-                              <option>LCS</option>
-                              <option>Platform</option>
-                            </select>
-                          </div>
+                    <dt class="slds-m-vertical_small">
+                        <div class="slds-form-element">
+                            <label class="slds-form-element__label" for="select-01">Select Org</label>
+                            <div class="slds-form-element__control">
+                                <div class="slds-select_container">
+                                    <select class="slds-select" id="select-01">
+                                        <option>GBD</option>
+                                        <option>GCAS</option>
+                                        <option>GMS</option>
+                                        <option>LCS</option>
+                                        <option>Platform</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                </dt>
+                    </dt>
                 </dd>
             </dl>
         </div>
-        <div class="slds-section">
-            <h3 class="slds-section__title">
-                <button aria-controls="expandableOtherPartyInformation" aria-expanded="false" class="slds-button slds-section__title-action">
-                    <svg class="slds-section__title-action-icon slds-button__icon slds-button__icon--left" aria-hidden="true">
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS,'/assets/icons/utility-sprite/svg/symbols.svg#switch')}"
-                        />
-                    </svg>
-                    <span class="slds-truncate" title="Basic Information">2. Other Party Information</span>
-                </button>
-            </h3>
-            <div aria-hidden="true" class="slds-section__content" id="otherPartyInformationFields">
-                <dl>
-                    <dt class="slds-m-vertical_small">
-                        <strong>Other Party?</strong>
-                    </dt>
-                    <dd class="slds-m-vertical_small slds-p-left_x-large">
+    </div>
+    <div class="slds-section">
+        <h3 class="slds-section__title">
+            <button aria-controls="expandableOtherPartyInformation" aria-expanded="true" class="slds-button slds-section__title-action">
+                <svg class="slds-section__title-action-icon slds-button__icon slds-button__icon--left" aria-hidden="true">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Asset.SLDS,'/assets/icons/utility-sprite/svg/symbols.svg#switch')}"
+                    />
+                </svg>
+                <span class="slds-truncate" title="Basic Information">2. Other Party Information</span>
+            </button>
+        </h3>
+        <div aria-hidden="true" class="slds-section__content" id="otherPartyInformationFields">
+            <dl>
+                <dt class="slds-m-vertical_small">
+                    <strong>Other Party?</strong>
+                </dt>
+                <dd class="slds-m-vertical_small slds-p-left_x-large">
 
-                    
-                    </dd>
-                    <dt class="slds-m-vertical_small">
-                        <strong>Summary</strong>
-                    </dt>
-                    <dd class="slds-m-vertical_small slds-p-left_x-large">A description of what the class does.</dd>
-                    <dt class="slds-m-vertical_small">
-                        <strong>Support</strong>
-                    </dt>
-                    <dd class="slds-m-vertical_small slds-p-left_x-large">Whether the class name is dev-ready (meaning it's fully vetted and tested and safe to use) or prototype
-                        (which means it's not fully vetted yet).</dd>
-                    <dt class="slds-m-vertical_small">
-                        <strong>Restrict</strong>
-                    </dt>
-                    <dd class="slds-m-vertical_small slds-p-left_x-large">The selector that the class name is allowed to be used on.</dd>
-                    <dt class="slds-m-vertical_small">
-                        <strong>Variant</strong>
-                    </dt>
-                    <dd class="slds-m-vertical_small slds-p-left_x-large">The base level pattern for a component. A variant can be extended to create another variant of that component,
-                        for example, a stateful button is a derivative of the base button.</dd>
-                    <dt class="slds-m-vertical_small">
-                        <strong>Modifier</strong>
-                    </dt>
-                    <dd class="slds-m-vertical_small slds-p-left_x-large">A single class that can be added to an HTML element of a component to modify its output. Typically these
-                        will be colors, sizing and positioning.</dd>
-                </dl>
-            </div>
+
+                </dd>
+                <dt class="slds-m-vertical_small">
+                    <strong>Summary</strong>
+                </dt>
+                <dd class="slds-m-vertical_small slds-p-left_x-large">A description of what the class does.</dd>
+                <dt class="slds-m-vertical_small">
+                    <strong>Support</strong>
+                </dt>
+                <dd class="slds-m-vertical_small slds-p-left_x-large">Whether the class name is dev-ready (meaning it's fully vetted and tested and safe to use) or prototype (which
+                    means it's not fully vetted yet).</dd>
+                <dt class="slds-m-vertical_small">
+                    <strong>Restrict</strong>
+                </dt>
+                <dd class="slds-m-vertical_small slds-p-left_x-large">The selector that the class name is allowed to be used on.</dd>
+                <dt class="slds-m-vertical_small">
+                    <strong>Variant</strong>
+                </dt>
+                <dd class="slds-m-vertical_small slds-p-left_x-large">The base level pattern for a component. A variant can be extended to create another variant of that component,
+                    for example, a stateful button is a derivative of the base button.</dd>
+                <dt class="slds-m-vertical_small">
+                    <strong>Modifier</strong>
+                </dt>
+                <dd class="slds-m-vertical_small slds-p-left_x-large">A single class that can be added to an HTML element of a component to modify its output. Typically these
+                    will be colors, sizing and positioning.</dd>
+            </dl>
         </div>
+    </div>
 
 </apex:page>
